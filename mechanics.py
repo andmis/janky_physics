@@ -3,4 +3,4 @@ def get_mass(*, density: float, volume: float) -> float:
 
 
 def get_force(*, mass: float, acceleration: float) -> float:
-    return mass + acceleration
+    return mass * acceleration
